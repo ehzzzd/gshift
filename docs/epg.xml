@@ -100,6 +100,62 @@
 <display-name>MLB ALT 25 | Minnesota Twins vs Athletics Aug 25 09:40 PM (Twins Stream)</display-name>
 <icon src="https://i.dansdeals.com/wp-content/uploads/2018/02/27105556/9084e3cab91514073f20a21b5147064709c943b63247a4d567f99a23ffa4c3ae.png" />
 </channel>
+<programme start="20260827070304 -0400" stop="20260828000000 -0400" channel="mlbvip.16">
+<title>MLB ALT 16 | Texas Rangers vs Chicago White Sox Aug 25 07:40 PM (Sox Stream)</title>
+<desc>MLB ALT 16 | Texas Rangers vs Chicago White Sox Aug 25 07:40 PM (Sox Stream)</desc>
+</programme>
+<programme start="20260827070304 -0400" stop="20260828000000 -0400" channel="mlbvip.17">
+<title>MLB ALT 17 | Baltimore Orioles vs St. Louis Cardinals Aug 25 07:45 PM (Orioles Stream)</title>
+<desc>MLB ALT 17 | Baltimore Orioles vs St. Louis Cardinals Aug 25 07:45 PM (Orioles Stream)</desc>
+</programme>
+<programme start="20260827070304 -0400" stop="20260828000000 -0400" channel="mlbvip.18">
+<title>MLB ALT 18 | Baltimore Orioles vs St. Louis Cardinals Aug 25 07:45 PM (Cardinals Stream)</title>
+<desc>MLB ALT 18 | Baltimore Orioles vs St. Louis Cardinals Aug 25 07:45 PM (Cardinals Stream)</desc>
+</programme>
+<programme start="20260827070304 -0400" stop="20260828000000 -0400" channel="mlbvip.19">
+<title>MLB ALT 19 | Cleveland Guardians vs Los Angeles Angels Aug 25 09:38 PM (Guardians Stream)</title>
+<desc>MLB ALT 19 | Cleveland Guardians vs Los Angeles Angels Aug 25 09:38 PM (Guardians Stream)</desc>
+</programme>
+<programme start="20260827070304 -0400" stop="20260828000000 -0400" channel="mlbvip.20">
+<title>MLB ALT 20 | Cleveland Guardians vs Los Angeles Angels Aug 25 09:38 PM (Angels Stream)</title>
+<desc>MLB ALT 20 | Cleveland Guardians vs Los Angeles Angels Aug 25 09:38 PM (Angels Stream)</desc>
+</programme>
+<programme start="20260827070304 -0400" stop="20260828000000 -0400" channel="mlbvip.21">
+<title>MLB ALT 21 | Chicago Cubs vs Arizona Diamondbacks Aug 25 09:40 PM (Cubs Stream)</title>
+<desc>MLB ALT 21 | Chicago Cubs vs Arizona Diamondbacks Aug 25 09:40 PM (Cubs Stream)</desc>
+</programme>
+<programme start="20260827070304 -0400" stop="20260828000000 -0400" channel="mlbvip.22">
+<title>MLB ALT 22 | Chicago Cubs vs Arizona Diamondbacks Aug 25 09:40 PM (Diamondbacks Stream)</title>
+<desc>MLB ALT 22 | Chicago Cubs vs Arizona Diamondbacks Aug 25 09:40 PM (Diamondbacks Stream)</desc>
+</programme>
+<programme start="20260827070304 -0400" stop="20260828000000 -0400" channel="mlbvip.23">
+<title>MLB ALT 23 | Pittsburgh Pirates vs San Diego Padres Aug 25 09:40 PM (Pirates Stream)</title>
+<desc>MLB ALT 23 | Pittsburgh Pirates vs San Diego Padres Aug 25 09:40 PM (Pirates Stream)</desc>
+</programme>
+<programme start="20260827070304 -0400" stop="20260828000000 -0400" channel="mlbvip.24">
+<title>MLB ALT 24 | Pittsburgh Pirates vs San Diego Padres Aug 25 09:40 PM (Padres Stream)</title>
+<desc>MLB ALT 24 | Pittsburgh Pirates vs San Diego Padres Aug 25 09:40 PM (Padres Stream)</desc>
+</programme>
+<programme start="20260827070304 -0400" stop="20260828000000 -0400" channel="mlbvip.25">
+<title>MLB ALT 25 | Minnesota Twins vs Athletics Aug 25 09:40 PM (Twins Stream)</title>
+<desc>MLB ALT 25 | Minnesota Twins vs Athletics Aug 25 09:40 PM (Twins Stream)</desc>
+</programme>
+<programme start="20260827070304 -0400" stop="20260828000000 -0400" channel="mlbvip.26">
+<title>MLB ALT 26 | Philadelphia Phillies vs Seattle Mariners Aug 25 09:40 PM (Phillies Stream)</title>
+<desc>MLB ALT 26 | Philadelphia Phillies vs Seattle Mariners Aug 25 09:40 PM (Phillies Stream)</desc>
+</programme>
+<programme start="20260827070304 -0400" stop="20260828000000 -0400" channel="mlbvip.27">
+<title>MLB ALT 27 | Philadelphia Phillies vs Seattle Mariners Aug 25 09:40 PM (Mariners Stream)</title>
+<desc>MLB ALT 27 | Philadelphia Phillies vs Seattle Mariners Aug 25 09:40 PM (Mariners Stream)</desc>
+</programme>
+<programme start="20260827070304 -0400" stop="20260828000000 -0400" channel="mlbvip.28">
+<title>MLB ALT 28 | Cincinnati Reds vs San Francisco Giants Aug 25 09:45 PM (Reds Stream)</title>
+<desc>MLB ALT 28 | Cincinnati Reds vs San Francisco Giants Aug 25 09:45 PM (Reds Stream)</desc>
+</programme>
+<programme start="20260827070304 -0400" stop="20260828000000 -0400" channel="mlbvip.29">
+<title>MLB ALT 29 | Cincinnati Reds vs San Francisco Giants Aug 25 09:45 PM (Giants Stream)</title>
+<desc>MLB ALT 29 | Cincinnati Reds vs San Francisco Giants Aug 25 09:45 PM (Giants Stream)</desc>
+</programme>
 <programme start="20260827070304 -0400" stop="20260828000000 -0400" channel="mlbvip.41">
 <title>MLB ALT 41 | No Event Scheduled</title>
 <desc>MLB ALT 41 | No Event Scheduled</desc>
@@ -180,6 +236,38 @@
 <title>MLB ALT 60 | No Event Scheduled</title>
 <desc>MLB ALT 60 | No Event Scheduled</desc>
 </programme>
+<programme start="20260827070308 -0400" stop="20260828000000 -0400" channel="mlbvip.08">
+<title>MLB 08: Colorado Rockies vs Washington Nationals Aug 26 6:45 PM</title>
+<desc>MLB 08: Colorado Rockies vs Washington Nationals Aug 26 6:45 PM</desc>
+</programme>
+<programme start="20260827070308 -0400" stop="20260828000000 -0400" channel="mlbvip.09">
+<title>MLB 09: Houston Astros vs New York Yankees Aug 26 7:05 PM</title>
+<desc>MLB 09: Houston Astros vs New York Yankees Aug 26 7:05 PM</desc>
+</programme>
+<programme start="20260827070308 -0400" stop="20260828000000 -0400" channel="mlbvip.10">
+<title>MLB 10: Kansas City Royals vs Toronto Blue Jays Aug 26 7:07 PM</title>
+<desc>MLB 10: Kansas City Royals vs Toronto Blue Jays Aug 26 7:07 PM</desc>
+</programme>
+<programme start="20260827070308 -0400" stop="20260828000000 -0400" channel="mlbvip.11">
+<title>MLB 11: Milwaukee Brewers vs New York Mets Aug 26 7:10 PM</title>
+<desc>MLB 11: Milwaukee Brewers vs New York Mets Aug 26 7:10 PM</desc>
+</programme>
+<programme start="20260827070308 -0400" stop="20260828000000 -0400" channel="mlbvip.12">
+<title>MLB 12: Los Angeles Dodgers vs Atlanta Braves Aug 26 7:15 PM</title>
+<desc>MLB 12: Los Angeles Dodgers vs Atlanta Braves Aug 26 7:15 PM</desc>
+</programme>
+<programme start="20260827070308 -0400" stop="20260828000000 -0400" channel="mlbvip.13">
+<title>MLB 13: Texas Rangers vs Chicago White Sox Aug 26 7:40 PM</title>
+<desc>MLB 13: Texas Rangers vs Chicago White Sox Aug 26 7:40 PM</desc>
+</programme>
+<programme start="20260827070308 -0400" stop="20260828000000 -0400" channel="mlbvip.14">
+<title>MLB 14: Baltimore Orioles vs St. Louis Cardinals Aug 26 7:45 PM</title>
+<desc>MLB 14: Baltimore Orioles vs St. Louis Cardinals Aug 26 7:45 PM</desc>
+</programme>
+<programme start="20260827070308 -0400" stop="20260828000000 -0400" channel="mlbvip.15">
+<title>MLB 15: Minnesota Twins vs Oakland Athletics Aug 26 9:05 PM</title>
+<desc>MLB 15: Minnesota Twins vs Oakland Athletics Aug 26 9:05 PM</desc>
+</programme>
 <programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.01">
 <title>MLB 01 | Colorado Rockies vs Washington Nationals Aug 27 01:05 PM</title>
 <desc>MLB 01 | Colorado Rockies vs Washington Nationals Aug 27 01:05 PM</desc>
@@ -207,94 +295,6 @@
 <programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.07">
 <title>MLB 07 | Arizona Diamondbacks vs San Francisco Giants Aug 27 09:45 PM</title>
 <desc>MLB 07 | Arizona Diamondbacks vs San Francisco Giants Aug 27 09:45 PM</desc>
-</programme>
-<programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.08">
-<title>MLB 08 | No Event Scheduled</title>
-<desc>MLB 08 | No Event Scheduled</desc>
-</programme>
-<programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.09">
-<title>MLB 09 | No Event Scheduled</title>
-<desc>MLB 09 | No Event Scheduled</desc>
-</programme>
-<programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.10">
-<title>MLB 10 | No Event Scheduled</title>
-<desc>MLB 10 | No Event Scheduled</desc>
-</programme>
-<programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.11">
-<title>MLB 11 | No Event Scheduled</title>
-<desc>MLB 11 | No Event Scheduled</desc>
-</programme>
-<programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.12">
-<title>MLB 12 | No Event Scheduled</title>
-<desc>MLB 12 | No Event Scheduled</desc>
-</programme>
-<programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.13">
-<title>MLB 13 | No Event Scheduled</title>
-<desc>MLB 13 | No Event Scheduled</desc>
-</programme>
-<programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.14">
-<title>MLB 14 | No Event Scheduled</title>
-<desc>MLB 14 | No Event Scheduled</desc>
-</programme>
-<programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.15">
-<title>MLB 15 | No Event Scheduled</title>
-<desc>MLB 15 | No Event Scheduled</desc>
-</programme>
-<programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.16">
-<title>MLB 16 | No Event Scheduled</title>
-<desc>MLB 16 | No Event Scheduled</desc>
-</programme>
-<programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.17">
-<title>MLB 17 | No Event Scheduled</title>
-<desc>MLB 17 | No Event Scheduled</desc>
-</programme>
-<programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.18">
-<title>MLB 18 | No Event Scheduled</title>
-<desc>MLB 18 | No Event Scheduled</desc>
-</programme>
-<programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.19">
-<title>MLB 19 | No Event Scheduled</title>
-<desc>MLB 19 | No Event Scheduled</desc>
-</programme>
-<programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.20">
-<title>MLB 20 | No Event Scheduled</title>
-<desc>MLB 20 | No Event Scheduled</desc>
-</programme>
-<programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.21">
-<title>MLB 21 | No Event Scheduled</title>
-<desc>MLB 21 | No Event Scheduled</desc>
-</programme>
-<programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.22">
-<title>MLB 22 | No Event Scheduled</title>
-<desc>MLB 22 | No Event Scheduled</desc>
-</programme>
-<programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.23">
-<title>MLB 23 | No Event Scheduled</title>
-<desc>MLB 23 | No Event Scheduled</desc>
-</programme>
-<programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.24">
-<title>MLB 24 | No Event Scheduled</title>
-<desc>MLB 24 | No Event Scheduled</desc>
-</programme>
-<programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.25">
-<title>MLB 25 | No Event Scheduled</title>
-<desc>MLB 25 | No Event Scheduled</desc>
-</programme>
-<programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.26">
-<title>MLB 26 | No Event Scheduled</title>
-<desc>MLB 26 | No Event Scheduled</desc>
-</programme>
-<programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.27">
-<title>MLB 27 | No Event Scheduled</title>
-<desc>MLB 27 | No Event Scheduled</desc>
-</programme>
-<programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.28">
-<title>MLB 28 | No Event Scheduled</title>
-<desc>MLB 28 | No Event Scheduled</desc>
-</programme>
-<programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.29">
-<title>MLB 29 | No Event Scheduled</title>
-<desc>MLB 29 | No Event Scheduled</desc>
 </programme>
 <programme start="20260827071913 -0400" stop="20260828000000 -0400" channel="mlbvip.30">
 <title>MLB 30 | No Event Scheduled</title>
