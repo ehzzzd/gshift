@@ -15,8 +15,14 @@ Uso:
     python3 clean_epg.py <URL_ORIGEN> <ARCHIVO_SALIDA>
 
 Variables de entorno (alternativa a argumentos):
-    EPG_SOURCE_URL   -> URL del XMLTV original
-    EPG_OUTPUT_FILE  -> ruta del archivo de salida (default: epg.xml)
+    EPG_SOURCE_URL     -> URL del XMLTV original
+    EPG_OUTPUT_FILE    -> ruta del archivo de salida (default: epg.xml)
+    EPG_CHANNEL_PREFIX -> opcional. Lista separada por comas de prefijos de
+                          canal a conservar (ej: "mlbvip"). Si se define,
+                          se descartan todos los <channel>/<programme> cuyo
+                          id NO empiece con alguno de esos prefijos.
+                          Sirve para mantener el archivo final pequeño
+                          (GitHub rechaza archivos de más de 100 MB).
 """
 
 import sys
@@ -100,9 +106,42 @@ def clean_programmes(root: ET.Element) -> int:
     return len(to_remove)
 
 
+def filter_by_prefix(root: ET.Element, prefixes) -> tuple:
+    """
+    Elimina todos los <channel> cuyo id no empiece con ninguno de los
+    prefijos dados, y todos los <programme> cuyo channel no empiece con
+    ninguno de esos prefijos. Comparación insensible a mayúsculas.
+    Devuelve (canales_eliminados, programmes_eliminados).
+    """
+    prefixes = [p.strip().lower() for p in prefixes if p.strip()]
+    if not prefixes:
+        return 0, 0
+
+    def keep(channel_id: str) -> bool:
+        if not channel_id:
+            return False
+        cid = channel_id.lower()
+        return any(cid.startswith(p) for p in prefixes)
+
+    removed_channels = 0
+    for el in root.findall("channel"):
+        if not keep(el.get("id")):
+            root.remove(el)
+            removed_channels += 1
+
+    removed_programmes = 0
+    for el in root.findall("programme"):
+        if not keep(el.get("channel")):
+            root.remove(el)
+            removed_programmes += 1
+
+    return removed_channels, removed_programmes
+
+
 def main():
     source_url = os.environ.get("EPG_SOURCE_URL") or (sys.argv[1] if len(sys.argv) > 1 else None)
     output_file = os.environ.get("EPG_OUTPUT_FILE") or (sys.argv[2] if len(sys.argv) > 2 else "epg.xml")
+    channel_prefix_env = os.environ.get("EPG_CHANNEL_PREFIX", "")
 
     if not source_url:
         print("ERROR: falta la URL de origen. Usa: python3 clean_epg.py <URL> <SALIDA>", file=sys.stderr)
@@ -112,6 +151,11 @@ def main():
     raw = download(source_url)
 
     root = ET.fromstring(raw)
+
+    if channel_prefix_env:
+        prefixes = channel_prefix_env.split(",")
+        rc, rp = filter_by_prefix(root, prefixes)
+        print(f"Filtrado por prefijo {prefixes}: {rc} canales y {rp} programmes eliminados (fuera del filtro)")
 
     removed = clean_programmes(root)
     print(f"Entradas <programme> eliminadas por solape/duplicado: {removed}")
