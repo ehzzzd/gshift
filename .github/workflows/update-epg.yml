@@ -25,6 +25,9 @@ jobs:
         env:
           EPG_SOURCE_URL: ${{ secrets.EPG_SOURCE_URL }}
           EPG_OUTPUT_FILE: docs/epg.xml
+          # Lista separada por comas de prefijos de canal a conservar.
+          # Ejemplo para agregar más adelante: "mlbvip,nflvip,nbavip"
+          EPG_CHANNEL_PREFIX: "mlbvip"
         run: |
           mkdir -p docs
           python3 clean_epg.py
