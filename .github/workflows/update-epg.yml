@@ -1,0 +1,38 @@
+name: Update EPG
+
+on:
+  schedule:
+    # Corre cada 30 minutos. Ajusta si tu proveedor actualiza con otra frecuencia.
+    - cron: "*/30 * * * *"
+  workflow_dispatch: {}  # te permite correrlo manualmente desde la pestaña "Actions"
+
+permissions:
+  contents: write
+
+jobs:
+  update-epg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Limpiar EPG
+        env:
+          EPG_SOURCE_URL: ${{ secrets.EPG_SOURCE_URL }}
+          EPG_OUTPUT_FILE: docs/epg.xml
+        run: |
+          mkdir -p docs
+          python3 clean_epg.py
+
+      - name: Publicar cambios
+        run: |
+          git config user.name "epg-bot"
+          git config user.email "epg-bot@users.noreply.github.com"
+          git add docs/epg.xml
+          git diff --quiet --cached || git commit -m "Actualiza EPG limpio [automático]"
+          git push
